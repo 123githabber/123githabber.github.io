@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CultureEvents - Организация культурных мероприятий</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Культотека</div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero">Главная</a></li>
+                    <li><a href="#about">О проекте</a></li>
+                    <li><a href="#events">События</a></li>
+                    <li><a href="#benefits">Выгоды</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#partners">Партнеры</a></li>
+                    <li><a href="#trust">Доверие</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Откройте мир культуры вместе с нами</h1>
+            <p>Билеты на лучшие мероприятия одним кликом. Театр, музыка, искусство и многое другое в одном месте.</p>
+            <a href="#events" class="btn">Смотреть мероприятия</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ваш проводник в мире культуры</h2>
+                <p>Мы создали платформу, где культура становится доступной для каждого</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-item">
+                    <div class="about-text">
+                        <h3>Все мероприятия в одном месте</h3>
+                        <p>От классических концертов до современных выставок — мы собрали для вас лучшие культурные события города. Больше не нужно искать информацию на разных сайтах.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Мероприятия в одном месте">
+                    </div>
+                </div>
+                
+                <div class="about-item reverse">
+                    <div class="about-text">
+                        <h3>Удобное бронирование</h3>
+                        <p>Забудьте о длинных очередях и сложных процедурах. Забронируйте билеты за 2 минуты и получите их прямо на телефон.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Удобное бронирование">
+                    </div>
+                </div>
+                
+                <div class="about-item">
+                    <div class="about-text">
+                        <h3>Персональные рекомендации</h3>
+                        <p>Наш умный алгоритм подбирает мероприятия специально для вас, учитывая ваши предпочтения и историю просмотров.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Персональные рекомендации">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+            <div class="section-title">
+                <h2>Популярные события</h2>
+                <p>Откройте для себя лучшие культурные мероприятия этого сезона</p>
+            </div>
+            
+ 
+            <div class="category-section">
+                <div class="category-header">
+                    <div class="category-title">
+                        <span class="category-icon"></span>
+                        Театральные постановки
+                    </div>
+                    <a href="#" class="category-link">Смотреть все →</a>
+                </div>
+                
+                <div class="events-scroll-container">
+                    <button class="scroll-btn prev">‹</button>
+                    <div class="events-scroll-track" id="theaterTrack">
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://briefly.ru/static/cache/illustrations_ai/720/1229.jpeg" alt="Вишневый сад">
+                                <div class="event-date">15 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">"Вишневый сад" в новой постановке</h3>
+                                <div class="event-location">МХТ им. Чехова</div>
+                                <div class="event-price">от 2000 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQKLiURf4_zSiXjojju36zLa7wMfn5wxLE3Q&s" alt="Чайка">
+                                <div class="event-date">18 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">"Чайка" в современной интерпретации</h3>
+                                <div class="event-location">Театр Наций</div>
+                                <div class="event-price">от 1800 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnWaP9DJCogGBITaF2AC6pN7Zbohd3qq5kQ&s" alt="Ревизор">
+                                <div class="event-date">22 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">"Ревизор" - классика в новом прочтении</h3>
+                                <div class="event-location">Малый театр</div>
+                                <div class="event-price">от 1600 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://readrate.com/img/pictures/basic/260/260567/2605670/w816-40a69bc6.jpg" alt="Гамлет">
+                                <div class="event-date">25 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">"Гамлет" - шекспировская драма</h3>
+                                <div class="event-location">Театр Вахтангова</div>
+                                <div class="event-price">от 2200 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://static.tildacdn.com/tild3565-3366-4331-b733-366439393035/photo.png" alt="Современная драма">
+                                <div class="event-date">28 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">"Три сестры" - современная драма</h3>
+                                <div class="event-location">Современник</div>
+                                <div class="event-price">от 1900 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="scroll-btn next">›</button>
+                </div>
+            </div>
+            
+            <div class="category-section">
+                <div class="category-header">
+                    <div class="category-title">
+                        <span class="category-icon"></span>
+                        Концерты и музыка
+                    </div>
+                    <a href="#" class="category-link">Смотреть все →</a>
+                </div>
+                
+                <div class="events-scroll-container">
+                    <button class="scroll-btn prev">‹</button>
+                    <div class="events-scroll-track" id="musicTrack">
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjN_fEgzlKq5sgbpE1e1n7yMvUwX2ucM-RsQ&s" alt="Классический концерт">
+                                <div class="event-date">16 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Вечер классической музыки</h3>
+                                <div class="event-location">Московская филармония</div>
+                                <div class="event-price">от 1500 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://img12.rl0.ru/afisha/e375x235q85i/s2.afisha.ru/mediastorage/bc/bd/1a94471c1e8b4bc1a5d146f9bdbc.jpg" alt="Джазовый концерт">
+                                <div class="event-date">19 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Вечер джазовой музыки</h3>
+                                <div class="event-location">Джаз-клуб "Синяя птица"</div>
+                                <div class="event-price">от 1200 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Рок-концерт">
+                                <div class="event-date">23 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Рок-фестиваль "Осенние ритмы"</h3>
+                                <div class="event-location">Стадион "Лужники"</div>
+                                <div class="event-price">от 2500 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://www.belcanto.ru/media/images/uploaded/onegin03.jpg" alt="Опера">
+                                <div class="event-date">26 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Опера "Евгений Онегин"</h3>
+                                <div class="event-location">Большой театр</div>
+                                <div class="event-price">от 3500 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://innopolis.com/uploads/thumbs/v-mire-narodnoj-muzyki-03-af092d741b-5a680f6c43e18649e3bab09217600d5c.png" alt="Народная музыка">
+                                <div class="event-date">29 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Концерт народной музыки</h3>
+                                <div class="event-location">Концертный зал им. Чайковского</div>
+                                <div class="event-price">от 1000 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="scroll-btn next">›</button>
+                </div>
+            </div>
+            
+            <div class="category-section">
+                <div class="category-header">
+                    <div class="category-title">
+                        <span class="category-icon"></span>
+                        Выставки и искусство
+                    </div>
+                    <a href="#" class="category-link">Смотреть все →</a>
+                </div>
+                
+                <div class="events-scroll-container">
+                    <button class="scroll-btn prev">‹</button>
+                    <div class="events-scroll-track" id="exhibitionTrack">
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://iconlife.ru/images/%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D0%90%D1%80%D1%82_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_2024_%D0%B3%D0%BE%D0%B4%D0%B0_%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%8B%D0%B8%CC%86_%D0%B4%D0%B2%D0%BE%D1%80.jpg" alt="Современное искусство">
+                                <div class="event-date">17 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Современное искусство: новые имена</h3>
+                                <div class="event-location">Галерея современного искусства</div>
+                                <div class="event-price">от 800 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://images.joseartgallery.com/127006/impressionism-art-style.jpg" alt="Импрессионизм">
+                                <div class="event-date">20 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Французские импрессионисты</h3>
+                                <div class="event-location">Третьяковская галерея</div>
+                                <div class="event-price">от 1200 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://kuda-spb.ru/uploads/1cb4ca9598a741dd5506b3609531b579.jpg" alt="Фотография">
+                                <div class="event-date">24 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Выставка фотографии "Мгновения"</h3>
+                                <div class="event-location">Фотоцентр</div>
+                                <div class="event-price">от 600 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfyMcAs43xncPZF1prh32ot_lw-0FPrRf-Ww&s" alt="Скульптура">
+                                <div class="event-date">27 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Современная скульптура</h3>
+                                <div class="event-location">Музей современного искусства</div>
+                                <div class="event-price">от 900 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                        
+                        <div class="event-card">
+                            <div class="event-image">
+                                <img src="https://thisgreece.ru/images/850x414/ellada1.jpg" alt="Античное искусство">
+                                <div class="event-date">30 ОКТ</div>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Античное искусство и археология</h3>
+                                <div class="event-location">ГМИИ им. Пушкина</div>
+                                <div class="event-price">от 1100 ₽</div>
+                                <a href="#" class="btn">Забронировать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="scroll-btn next">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Почему выбирают нас</h2>
+                <p>Мы делаем культуру доступной и удобной для каждого</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎭</div>
+                    <h3>Более 1000 мероприятий</h3>
+                    <p>Самый полный каталог культурных событий в вашем городе</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Мгновенное бронирование</h3>
+                    <p>Билеты за 2 минуты без очередей и сложных процедур</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🔒</div>
+                    <h3>Безопасная оплата</h3>
+                    <p>Все платежи защищены банковским уровнем шифрования</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">📱</div>
+                    <h3>Удобный интерфейс</h3>
+                    <p>Простой и понятный дизайн для комфортного использования</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎫</div>
+                    <h3>Электронные билеты</h3>
+                    <p>Получайте билеты на телефон и не беспокойтесь о бумажных</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">📊</div>
+                    <h3>Умные рекомендации</h3>
+                    <p>Персональная подборка мероприятий по вашим интересам</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Галерея мероприятий</h2>
+                <p>Запечатленные моменты с наших прошедших событий</p>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-track" id="galleryTrack">
+                    <div class="gallery-slide">
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Концерт классической музыки">
+                            <div class="gallery-caption">
+                                <h3>Концерт классической музыки</h3>
+                                <p>Московская филармония, октябрь 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Выставка современного искусства">
+                            <div class="gallery-caption">
+                                <h3>Выставка современного искусства</h3>
+                                <p>Галерея современного искусства, сентябрь 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-slide">
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1514306191717-452ec28c7814?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Театральная постановка">
+                            <div class="gallery-caption">
+                                <h3>Театральная постановка "Вишневый сад"</h3>
+                                <p>МХТ им. Чехова, август 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-nav" id="galleryNav"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши партнеры</h2>
+                <p>Сотрудничаем с ведущими культурными учреждениями</p>
+            </div>
+            
+            <div class="partners-container">
+                <div class="partners-track">
+                    <div class="partner-item">
+                        <div class="partner-text">Большой театр</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">Московская филармония</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">Третьяковская галерея</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">МХТ им. Чехова</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">ГМИИ им. Пушкина</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">Мариинский театр</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">Большой театр</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">Московская филармония</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">Третьяковская галерея</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">МХТ им. Чехова</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">ГМИИ им. Пушкина</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-text">Мариинский театр</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trust">
+        <div class="container">
+            <div class="section-title">
+                <h2>Нам доверяют</h2>
+                <p>Тысячи организаторов и посетителей уже используют наш сервис</p>
+            </div>
+            
+            <div class="trust-stats">
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-text">организаторов</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-text">мероприятий</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">250,000+</div>
+                    <div class="stat-text">посетителей</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-text">положительных отзывов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>Отзывы наших клиентов</h2>
+                <p>Что говорят организаторы и посетители о нашем сервисе</p>
+            </div>
+            
+            <div class="reviews-container">
+                <div class="review active">
+                    <div class="review-header">
+                        <div class="review-avatar">АП</div>
+                        <div class="review-info">
+                            <h4>Анна Петрова</h4>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        "С помощью Культотеки мы смогли увеличить посещаемость наших концертов на 40%. Платформа проста в использовании как для нас, так и для наших гостей. Особенно хочу отметить удобную систему управления билетами и аналитику продаж."
+                    </div>
+                </div>
+                
+                <div class="review">
+                    <div class="review-header">
+                        <div class="review-avatar">ИС</div>
+                        <div class="review-info">
+                            <h4>Иван Сидоров</h4>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        "Как постоянный посетитель культурных мероприятий, я ценю удобство бронирования билетов через Культотеку. Всегда нахожу интересные события и могу быстро забронировать билеты. Электронные билеты - это просто спасение, не нужно беспокоиться о том, что забуду бумажный билет дома."
+                    </div>
+                </div>
+                
+                <div class="review">
+                    <div class="review-header">
+                        <div class="review-avatar">МК</div>
+                        <div class="review-info">
+                            <h4>Мария Козлова</h4>
+                            <div class="review-rating">★★★★☆</div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        "Организую выставки современного искусства уже более 5 лет. Культотека значительно упростил мне работу с билетами и регистрацией посетителей. Клиенты отмечают удобство системы, а мне нравится детальная статистика по посещаемости."
+                    </div>
+                </div>
+                
+                <div class="review-nav">
+                    <span class="review-dot active" data-index="0"></span>
+                    <span class="review-dot" data-index="1"></span>
+                    <span class="review-dot" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Часто задаваемые вопросы</h2>
+                <p>Ответы на самые популярные вопросы о нашей платформе</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Как забронировать билеты на мероприятие?</div>
+                    <div class="faq-answer">
+                        <p>Для бронирования билетов необходимо:</p>
+                        <ol>
+                            <li>Выбрать интересующее мероприятие в каталоге</li>
+                            <li>Нажать кнопку "Забронировать"</li>
+                            <li>Выбрать количество билетов и места (если применимо)</li>
+                            <li>Заполнить данные для бронирования</li>
+                            <li>Оплатить заказ удобным способом</li>
+                        </ol>
+                        <p>После оплаты электронные билеты будут отправлены на вашу почту.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Какие способы оплаты вы принимаете?</div>
+                    <div class="faq-answer">
+                        <p>Мы принимаем следующие способы оплаты:</p>
+                        <ul>
+                            <li>Банковские карты (Visa, MasterCard, Мир)</li>
+                            <li>Электронные кошельки (ЮMoney, Qiwi)</li>
+                            <li>Мобильные платежи</li>
+                            <li>Банковский перевод для организаций</li>
+                        </ul>
+                        <p>Все платежи защищены современными системами шифрования.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Можно ли вернуть билеты?</div>
+                    <div class="faq-answer">
+                        <p>Возврат билетов возможен в следующих случаях:</p>
+                        <ul>
+                            <li>Отмена мероприятия организатором - полный возврат средств</li>
+                            <li>Перенос мероприятия - билеты действительны на новую дату или возможен возврат</li>
+                            <li>Возврат по личным причинам - возможен не менее чем за 3 дня до мероприятия с удержанием 10% от стоимости</li>
+                        </ul>
+                        <p>Для возврата необходимо написать в службу поддержки.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Как стать организатором мероприятий?</div>
+                    <div class="faq-answer">
+                        <p>Для регистрации в качестве организатора:</p>
+                        <ol>
+                            <li>Заполните форму регистрации организатора на нашем сайте</li>
+                            <li>Предоставьте информацию о вашей организации</li>
+                            <li>Наш менеджер свяжется с вами для подтверждения данных</li>
+                            <li>После верификации вы получите доступ к личному кабинету организатора</li>
+                        </ol>
+                        <p>Мы предлагаем выгодные условия сотрудничества и техническую поддержку.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Есть ли мобильное приложение?</div>
+                    <div class="faq-answer">
+                        <p>Да, у нас есть мобильное приложение для iOS и Android с полным функционалом:</p>
+                        <ul>
+                            <li>Поиск и бронирование мероприятий</li>
+                            <li>Электронные билеты в телефоне</li>
+                            <li>Уведомления о новых событиях</li>
+                            <li>Персональные рекомендации</li>
+                            <li>История посещений</li>
+                        </ul>
+                        <p>Приложение можно скачать в App Store и Google Play.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Что такое электронные билеты и как их использовать?</div>
+                    <div class="faq-answer">
+                        <p>Электронные билеты - это цифровые версии билетов, которые вы получаете на email или в мобильном приложении. Преимущества:</p>
+                        <ul>
+                            <li>Не нужно распечатывать - покажите QR-код на экране телефона</li>
+                            <li>Не теряются - всегда доступны в вашем аккаунте</li>
+                            <li>Экологично - не требуют бумаги и доставки</li>
+                            <li>Быстро - мгновенная доставка после оплаты</li>
+                        </ul>
+                        <p>На входе достаточно показать QR-код на экране вашего смартфона.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Культотека</h3>
+                    <p>Платформа для организации культурных мероприятий и бронирования билетов.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Навигация</h3>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Главная</a></li>
+                        <li><a href="#about">О проекте</a></li>
+                        <li><a href="#events">События</a></li>
+                        <li><a href="#benefits">Выгоды</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#partners">Партнеры</a></li>
+                        <li><a href="#trust">Доверие</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul class="footer-links">
+                        <li>Email: info@cultoteka.ru</li>
+                        <li>Телефон: +7 (495) 123-45-67</li>
+                        <li>Адрес: Москва, ул. Культурная, д. 1</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Культотека. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
